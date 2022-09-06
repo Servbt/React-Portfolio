@@ -50,7 +50,7 @@ export default function Interstice() {
 
                                     <sider ClassName="steam-card">
 
-                                        <a href="https://steamcommunity.com/profiles/76561198044842761/screenshots/" >Steam Screenshots</a>
+                                        <a href="https://steamcommunity.com/profiles/76561198044842761/screenshots/" >Steam Screenshots **Soon to be third Project**</a>
 
                                     </sider>
 
@@ -61,7 +61,7 @@ export default function Interstice() {
 
                                     <sider ClassName="fanpage-card">
 
-                                        <a href="https://servbt.github.io/Berserk-Fanpage//" >First Fanpage</a>
+                                        <a href="https://github.com/Servbt/Mix-up-Movie-Night" >Mix-it-up Movie Night</a>
 
                                     </sider>
 

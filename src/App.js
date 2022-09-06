@@ -1,7 +1,7 @@
 import React from "react";
 // import PortfolioContainer from "./components/PortfolioContainer";
-import Interstice from "./interstice";
+import IntersticeContainer from "./intersticeContainer";
 
-const App = () => <Interstice />;
+const App = () => <IntersticeContainer />;
 
 export default App;
