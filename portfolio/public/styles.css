@@ -1,0 +1,157 @@
+/* Background Image */
+
+body {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: 1px;
+    background-image: url("../assets/Images/kino.jpg");
+    background-color: rgb(64, 64, 241);
+    position:static;
+    
+}
+
+/* header attributes START */
+header {
+    background: linear-gradient(black, rgb(64, 64, 241));
+    position: fixed;
+    color: #ffff;
+    justify-content: center;
+    width:100%;
+    display: flex;
+    padding: 20px;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    position: relative;
+    color: #ffff;
+    
+}
+
+.navbar h1 {
+    font-size: 40px;
+    margin-right: 10px;
+
+}
+
+.navbar nav{
+    margin-top: 20px;
+}
+
+.navbar ul li {
+    display:inline;
+    position: relative;
+
+}
+/* header attributes END */
+
+/* Main atrributes START */
+main a {
+    text-decoration: none;
+    color: #ffff;
+    
+}
+
+main {
+    padding: 120px 360px 0px;
+    color: #ffff;
+
+}
+
+#bio , #work , #contact {
+    text-align: center;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    border-bottom: 1px solid #ffff;
+}
+
+.first  , .second , .third{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color:rgb(13, 13, 128);
+    border-radius: 10px;
+    border: 3px solid rgb(48, 73, 123);
+}
+/*Main attributes END */
+
+/* first section "About Me"*/
+section p {
+    text-indent: 30px;
+}
+
+/* Second section "My Work" cards */
+
+
+.steam-card , .fanpage-card , .horiseon-card{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 10px 0;
+    border: 1px dashed rgb(26, 121, 155);
+    height: 100px;
+    line-height: 100px;
+    border-left: 5px solid rgb(26, 121, 155);
+    border-right: 5px solid rgb(26, 121, 155);
+}
+
+.steam-card {
+    background-image: url("../assets/Images/mountain.jpg");
+    width:  95%;
+    margin-left: 2.5%;
+
+}
+
+.horiseon-card {
+    background-image: url("../assets/Images/sky.jpg");
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.fanpage-card {
+    background-image: url("../assets/Images/skull.jpg");
+    width: 85%;
+    margin-left: 7.5%;
+
+}
+
+.steam-card:hover,
+ .fanpage-card:hover,  
+.horiseon-card:hover {
+
+border-radius: 6px;
+border: 3px solid green;
+background-image: url("../assets/Images/sovengarde.jpg");
+transition: .2s;
+
+
+} 
+
+/* Contact Info styles */
+.third ul {
+    display: flex;
+    justify-content: center;
+}
+
+.third ul li {
+    display: inline;
+    margin-left: 15px;
+
+}
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+    main {
+      padding: 120px 0px;
+    }
+  }

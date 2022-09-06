@@ -1,10 +1,13 @@
 {
   "name": "react-portfolio",
   "version": "1.0.0",
-  "description": "Showcase of what I've done and where to contact me",
+  "description": "Showcase of what I've done and where to contact me WIP",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
