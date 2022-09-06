@@ -7,7 +7,7 @@ export default function Home() {
       <div className='second'>
         <div className='horiseon-card'>
 
-        <a href="https://intense-bastion-69389.herokuapp.com/">Nexus</a>
+        <a href="https://github.com/Servbt/Nexus">Nexus</a>
 
         </div>
       </div>
