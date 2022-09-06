@@ -28,7 +28,7 @@ header {
     text-decoration: none;
     position: relative;
     color: #ffff;
-    
+    margin-right: 10px;
 }
 
 .navbar h1 {
@@ -49,13 +49,13 @@ header {
 /* header attributes END */
 
 /* Main atrributes START */
-main a {
+.main a {
     text-decoration: none;
     color: #ffff;
     
 }
 
-main {
+.main {
     padding: 120px 360px 0px;
     color: #ffff;
 
@@ -74,7 +74,6 @@ main {
     padding: 20px;
     margin-bottom: 30px;
     background-color:rgb(13, 13, 128);
-    border-radius: 10px;
     border: 3px solid rgb(48, 73, 123);
 }
 /*Main attributes END */
@@ -147,11 +146,3 @@ transition: .2s;
 }
 
 
-
-
-/* Media Queries */
-@media screen and (max-width: 1000px) {
-    main {
-      padding: 120px 0px;
-    }
-  }
