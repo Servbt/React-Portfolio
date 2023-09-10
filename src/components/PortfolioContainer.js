@@ -15,7 +15,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Blog') {
+    if (currentPage === 'Portfolio') {
       return <Blog />;
     }
     return <Contact />;

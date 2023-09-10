@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function WhatIdo() {
+export default function WhatIknow() {
   return (
     <div>
       <div>
-        <h1>What I do</h1>
+        <h1>What I Know</h1>
         <ul>
           <li>HTML & CSS</li>
           <li>Javascript</li>
