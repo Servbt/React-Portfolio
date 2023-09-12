@@ -4,7 +4,7 @@ import '../resets.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs text-dark">
+    <ul className="nav text-dark">
       <li className="nav-item">
         <a
           href="#home"

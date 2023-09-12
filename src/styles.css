@@ -1,4 +1,16 @@
+:root {
+    --mygreen: #49A078;
+    --myblack: #1F2421;
+    --mydarkBlue: #216869;
+    --mylightgreen: #9CC5A1;
+    --myplatinum: #dce1de;
+  }
+
 .nav-item a {
-    color: black;
-    --bs-nav-link-hover-color: blue;
+    color: #1F2421;
+    --bs-nav-link-hover-color:#49A078;
+}
+
+ul {
+    list-style: none;
 }
