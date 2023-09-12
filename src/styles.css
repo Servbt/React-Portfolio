@@ -14,3 +14,8 @@
 ul {
     list-style: none;
 }
+
+.bi-mailbox2 {
+    color: var(--mygreen);
+    
+}
