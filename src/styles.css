@@ -1,0 +1,4 @@
+.nav-item a {
+    color: black;
+    --bs-nav-link-hover-color: blue;
+}

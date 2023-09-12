@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles.css';
-
+import '../resets.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs text-dark">
       <li className="nav-item">
         <a
           href="#home"
