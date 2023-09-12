@@ -6,7 +6,7 @@ export default function Portfolio() {
       <div>
         <h1>What I Know</h1>
         <ul>
-          <li>HTML & CSS</li>
+        <li>HTML & CSS</li>
           <li>Javascript</li>
           <li>SQL & NoSQL</li>
           <li>MongoDB</li>

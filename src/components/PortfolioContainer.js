@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import BottomBar from './BottomBar';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -24,10 +25,17 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className='body'>
+    <div className='bg-dark p-2 text-white bg-opacity-75'>
+      <div className='bg-dark p-2 text-white bg-opacity-75 g-col-8'>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
 
-      {renderPage()}
+      <div className='bg-dark p-2 text-white bg-opacity-75 '>
+        {renderPage()}
+      </div>
+    <div>
+      <BottomBar/>
+    </div>
     </div>
   );
 }
