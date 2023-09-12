@@ -5,6 +5,11 @@
     --mylightgreen: #9CC5A1;
     --myplatinum: #dce1de;
   }
+  
+.main-content {
+    height: 100vh;
+  }
+  
 
 .nav-item a {
     color: #1F2421;

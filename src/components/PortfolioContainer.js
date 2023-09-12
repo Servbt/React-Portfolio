@@ -30,7 +30,7 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
 
-      <div className='bg-light p-2 text-dark'>
+      <div className='bg-light p-2 text-dark main-content'>
         {renderPage()}
       </div>
     <div>
