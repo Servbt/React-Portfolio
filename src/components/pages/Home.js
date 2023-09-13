@@ -3,12 +3,12 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div className='justify-content-center position-absolute top-50 start-0 translate-middle-y p-5'>
+    <div className='justify-content-center position-absolute top-50 start-0 translate-middle-y p-5 '>
       {/* <img  className='float-end' src={tron} alt='profile pic'></img> */}
-      <h4 className='ps-4'>Hello! my name is</h4>
-
-      <h1 className='ps-4'>Arian</h1>
-      <h5 className='ps-4'>Full-Stack Web Dev</h5>
+      <h4 className='ps-4 fs-5 '>Hello! my name is</h4>
+      <div className='border-bottom border-1 border-dark custom-border'></div>
+      <h1 className='ps-4 '>Arian</h1>
+      <h5 className='ps-4 fs-6'>Full-Stack Web Dev</h5>
       <ul className='p-4'>
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-mailbox2 d-inline pe-1 pb-1 ps-0" viewBox="0 0 16 16">
           <path d="M9 8.5h2.793l.853.854A.5.5 0 0 0 13 9.5h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H9v1z" />
