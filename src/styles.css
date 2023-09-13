@@ -8,6 +8,7 @@
   
 .main-content {
     height: 100vh;
+    background-color: var(--myplatinum);
   }
   
 
@@ -23,4 +24,13 @@ ul {
 .bi-mailbox2 {
     color: var(--mygreen);
     
+}
+
+.top-content {
+  background-color: var(--mydarkBlue);
+
+}
+
+.bottom-content {
+  background-color: var(--myplatinum);
 }
