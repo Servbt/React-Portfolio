@@ -40,3 +40,17 @@ ul {
  margin-left: 25px;
  border-color: var(--myblack);
 }
+
+.my-name {
+  font-size: 60px;
+}
+
+.hello-header {
+  font-size: 10px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.web-devHead , .mail-header , .my-name {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
