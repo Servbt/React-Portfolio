@@ -1,20 +1,22 @@
 :root {
-    --mygreen: #49A078;
-    --myblack: #1F2421;
-    --mydarkBlue: #216869;
-    --mylightgreen: #9CC5A1;
-    --myplatinum: #dce1de;
+    --mygreen: rgb(73, 160, 120);
+    --myblack: rgb(31, 36, 33);
+    --mydarkBlue: rgb(33, 104, 105);
+    --mylightgreen: rgb(156, 197, 161);
+    --myplatinum: rgb(220, 225, 222);
   }
   
 .main-content {
     height: 100vh;
-    background-color: var(--myplatinum);
+  background-image: linear-gradient(to bottom right, rgb(220, 225, 222), rgb(156, 197, 161));
+
   }
   
 
 .nav-item a {
     color: #1F2421;
-    --bs-nav-link-hover-color:#49A078;
+    --bs-nav-link-hover-color: var(--mydarkBlue);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul {
@@ -22,12 +24,13 @@ ul {
 }
 
 .top-content {
-  background-color: var(--mylightgreen);
+  background-image: linear-gradient(to bottom right, rgb(220, 225, 222), rgb(156, 197, 161));
 
 }
 
 .bottom-content {
-  background-color: var(--myplatinum);
+  background-image: linear-gradient(to top right, rgb(220, 225, 222), rgb(156, 197, 161));
+
 }
 
 .bi-mailbox2 {

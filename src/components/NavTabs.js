@@ -4,7 +4,7 @@ import '../resets.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav ">
+    <ul className="nav">
       <li className="nav-item">
         <a
           href="#home"
