@@ -62,6 +62,21 @@ ul {
   
 }
 
+.my-card {
+background-color: none;
+}
+
+
+.what-I-know {
+  font-size: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.custom-border-2 {
+  margin-left: 25%;
+  width: 50%;
+
+}
 /* .profile-pic {
   display: block;
 }
