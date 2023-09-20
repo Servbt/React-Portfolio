@@ -75,13 +75,30 @@ background-color: none;
 .custom-border-2 {
   margin-left: 25%;
   width: 50%;
-
 }
-/* .profile-pic {
+
+.know-list {
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-resize {
+  font-size: 18px;
+}
+
+.profile-pic {
   display: block;
 }
 @media (max-width: 576px) {
   .profile-pic {
     display: none;
   }
-} */
+  .text-resize {
+    font-size: 15px;
+  }
+
+.col {
+  justify-content: center;
+}
+
+}
