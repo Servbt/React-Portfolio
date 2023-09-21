@@ -89,17 +89,39 @@ export default function Portfolio() {
 
         <div className='container'>
           <ul className='row'>
-
-              <div className='card bg-transparent border-0 col' style={{ width: '18rem' }}>
-                <img src={movie} className=' card-img-top' alt='movieMix'></img>
-              </div>
             <div className='card bg-transparent border-0 col' style={{ width: '18rem' }}>
+              <img src={movie} className=' card-img-top' alt='movieMix'></img>
+            </div>
+            <div className='col align-self-center'>
+              <h2 className='text-center'>Mix-it-up Movie night</h2>
+            </div>
+          </ul>
+
+          <ul className='row'>
+            <div className='col align-self-center'>
+              <h2 className='text-center'>Nexus</h2>
+            </div>
+            <div className='card bg-transparent border-0 col' style={{ width: '18rem' }}>
+              <img src={nexus} className='card-img-top' alt='movieMix'></img>
+            </div>
+          </ul>
+
+          <ul className='row'>
+            <div className='card bg-transparent border-0 col' style={{ width: '18rem' }}>
+              <img src={Yumu2} className='card-img-top' alt='movieMix'></img>
+            </div>
+            <div className='col align-self-center'>
+              <h2 className='text-center'>Yumu (WIP)</h2>
+            </div>
+          </ul>
+
+
+          {/* <div className='card bg-transparent border-0 col' style={{ width: '18rem' }}>
               <img src={nexus} className='card-img-top' alt='movieMix'></img>
             </div>
             <div className='card bg-transparent border-0 col' style={{ width: '18rem' }}>
               <img src={Yumu2} className='card-img-top' alt='movieMix'></img>
-            </div>
-          </ul>
+            </div> */}
 
         </div>
 
