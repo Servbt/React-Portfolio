@@ -9,7 +9,7 @@ export default function About() {
   
   return (
 
-    <div>
+    <div className='main-content-2'>
       <div className='position-absolute top-50 start-0 translate-middle-y w-75 ps-3 ms-5'>
         <h1 className='under-me-header pb-3'>About Me,</h1>
         <h2 className='under-me-header'>I play videogames and listen to music,</h2>

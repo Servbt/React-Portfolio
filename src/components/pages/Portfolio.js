@@ -5,8 +5,11 @@ import nexus from '../../Images/nexus.png'
 import Yumu2 from '../../Images/Yumu2.png'
 
 export default function Portfolio() {
+
+
+
   return (
-    <div>
+    <div className='main-content'>
 
       <div>
         <h1 className='text-center p-4 what-I-know'>What I Know</h1>

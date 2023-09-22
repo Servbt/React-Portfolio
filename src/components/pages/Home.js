@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div>
+    <div className='main-content-2'>
       {/* <div className='d-flex justify-content-center ms-5 ps-5 pt-5 profile-pic'>
         <img src={tron} alt='profile pic'></img>
       </div> */}

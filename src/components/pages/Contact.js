@@ -17,7 +17,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div>
+    <div className='main-content-2'>
       <h2>I'd love to get in touch, please let me know if you need anything!</h2>
       
     <form ref={form} onSubmit={sendEmail}>

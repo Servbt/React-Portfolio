@@ -1,26 +1,31 @@
 :root {
-    --mygreen: rgb(73, 160, 120);
-    --myblack: rgb(31, 36, 33);
-    --mydarkBlue: rgb(33, 104, 105);
-    --mylightgreen: rgb(156, 197, 161);
-    --myplatinum: rgb(220, 225, 222);
-  }
-  
+  --mygreen: rgb(73, 160, 120);
+  --myblack: rgb(31, 36, 33);
+  --mydarkBlue: rgb(33, 104, 105);
+  --mylightgreen: rgb(156, 197, 161);
+  --myplatinum: rgb(220, 225, 222);
+}
+
+.main-content-2 {
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, rgb(220, 225, 222), rgb(156, 197, 161));
+}
+
 .main-content {
-    height: 100%;
+  height: 100%;
   background-image: linear-gradient(to bottom right, rgb(220, 225, 222), rgb(156, 197, 161));
 
-  }
-  
+}
+
 
 .nav-item a {
-    color: #1F2421;
-    --bs-nav-link-hover-color: var(--mydarkBlue);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1F2421;
+  --bs-nav-link-hover-color: var(--mydarkBlue);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .top-content {
@@ -35,13 +40,13 @@ ul {
 
 .bi-mailbox2 {
   color: var(--mygreen);
-  
+
 }
 
 .custom-border {
- width: 70px;
- margin-left: 25px;
- border-color: var(--myblack);
+  width: 70px;
+  margin-left: 25px;
+  border-color: var(--myblack);
 }
 
 .my-name {
@@ -50,26 +55,29 @@ ul {
 
 .hello-header {
   font-size: 10px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.web-devHead , .mail-header , .my-name, .me-header {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.web-devHead,
+.mail-header,
+.my-name,
+.me-header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .under-me-header {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 .my-card {
-background-color: none;
+  background-color: none;
 }
 
 
 .what-I-know {
   font-size: 50px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .custom-border-2 {
@@ -79,7 +87,7 @@ background-color: none;
 
 .know-list {
   font-size: 20px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .text-resize {
@@ -89,16 +97,18 @@ background-color: none;
 .profile-pic {
   display: block;
 }
+
 @media (max-width: 576px) {
   .profile-pic {
     display: none;
   }
+
   .text-resize {
     font-size: 15px;
   }
 
-.col {
-  justify-content: center;
-}
+  .col {
+    justify-content: center;
+  }
 
 }
