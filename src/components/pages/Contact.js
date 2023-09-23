@@ -17,18 +17,33 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className='main-content-2'>
-      <h2>I'd love to get in touch, please let me know if you need anything!</h2>
-      
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div className="main-content-2 container">
+      <div className="row">
+        <div className="col-md-6 ">
+          <div className=''>
+            <h2>I'd love to get in touch, let me know if you need anything!</h2>
+
+            <form ref={form} onSubmit={sendEmail}>
+              <div className='form-group'>
+                <label className='d-block'>Name</label>
+                <input className='form-control' type="text" name="user_name" />
+              </div>
+              <div className='form-group'>
+                <label className='d-block'>Email</label>
+                <input className='form-control' type="email" name="user_email" />
+              </div>
+              <div className='form-group'>
+                <label className='d-block'>Message</label>
+                <textarea className='form-control' name="message" />
+              </div>
+              <input className='btn btn-primary' type="submit" value="Send" />
+            </form>
+          </div>
+        </div>
+        <div className="col-md-6">
+          {/* Content for the right side */}
+        </div>
+      </div>
     </div>
   );
 };

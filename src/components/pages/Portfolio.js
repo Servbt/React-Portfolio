@@ -96,13 +96,13 @@ export default function Portfolio() {
               <img src={movie} className=' card-img-top' alt='movieMix'></img>
             </div>
             <div className='col align-self-center'>
-              <h2 className='text-center'>Mix-it-up Movie night</h2>
+              <h2 className='text-begin border-2 border-bottom border-dark'>Mix-it-up Movie night</h2>
             </div>
           </ul>
 
           <ul className='row'>
             <div className='col align-self-center'>
-              <h2 className='text-center'>Nexus</h2>
+              <h2 className='text-end border-2 border-bottom border-dark'>Nexus</h2>
             </div>
             <div className='card bg-transparent border-0 col' style={{ width: '18rem' }}>
               <img src={nexus} className='card-img-top' alt='movieMix'></img>
@@ -114,7 +114,7 @@ export default function Portfolio() {
               <img src={Yumu2} className='card-img-top' alt='movieMix'></img>
             </div>
             <div className='col align-self-center'>
-              <h2 className='text-center'>Yumu (WIP)</h2>
+              <h2 className='text-begin border-2 border-bottom border-dark'>Yumu (WIP)</h2>
             </div>
           </ul>
 
