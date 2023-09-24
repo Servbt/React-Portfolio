@@ -7,7 +7,7 @@
 }
 
 .main-content-2 {
-  height: 100vh;
+  height: 90vh;
   background-image: linear-gradient(to bottom right, rgb(220, 225, 222), rgb(156, 197, 161));
 }
 
@@ -96,6 +96,19 @@ ul {
 
 .profile-pic {
   display: block;
+}
+
+.lemme-know {
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.custom-btn {
+  width: 100%;
+}
+
+.cust-form {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 576px) {

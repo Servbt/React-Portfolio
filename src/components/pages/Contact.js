@@ -17,31 +17,30 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="main-content-2 container">
-      <div className="row">
-        <div className="col-md-6 ">
-          <div className=''>
-            <h2>I'd love to get in touch, let me know if you need anything!</h2>
-
-            <form ref={form} onSubmit={sendEmail}>
-              <div className='form-group'>
-                <label className='d-block'>Name</label>
-                <input className='form-control' type="text" name="user_name" />
-              </div>
-              <div className='form-group'>
-                <label className='d-block'>Email</label>
-                <input className='form-control' type="email" name="user_email" />
-              </div>
-              <div className='form-group'>
-                <label className='d-block'>Message</label>
-                <textarea className='form-control' name="message" />
-              </div>
-              <input className='btn btn-primary' type="submit" value="Send" />
-            </form>
-          </div>
+    <div className="main-content-2 container p-5 ">
+      <div className="row ">
+        <div className=" col-md-6 align-self-top">
+          <h2 className='lemme-know text-left'>Let me know if you'd like to get in touch!</h2>
         </div>
-        <div className="col-md-6">
-          {/* Content for the right side */}
+      </div>
+      <div className="col-md-6">
+        <div className='py-2'>
+
+          <form ref={form} onSubmit={sendEmail}>
+            <div className='form-group'>
+              <label className='d-block py-1 cust-form'>Name</label>
+              <input className='form-control' type="text" name="user_name" />
+            </div>
+            <div className='form-group'>
+              <label className='d-block py-1 cust-form'>Email</label>
+              <input className='form-control' type="email" name="user_email" />
+            </div>
+            <div className='form-group'>
+              <label className='d-block py-1 cust-form'>Message</label>
+              <textarea className='form-control' name="message" />
+            </div>
+            <input className='d-block btn btn-dark mt-2 mb-5 custom-btn' type="submit" value="Send" />
+          </form>
         </div>
       </div>
     </div>
