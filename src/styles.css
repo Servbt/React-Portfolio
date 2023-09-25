@@ -7,7 +7,7 @@
 }
 
 .main-content-2 {
-  height: 90vh;
+  height: 100vh;
   background-image: linear-gradient(to bottom right, rgb(220, 225, 222), rgb(156, 197, 161));
 }
 
@@ -109,6 +109,16 @@ ul {
 
 .cust-form {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar a {
+  color: #1F2421;
+  --bs-nav-link-hover-color: var(--myplatinum);
+}
+
+.navbar-brand{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 10px;
 }
 
 @media (max-width: 576px) {
