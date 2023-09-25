@@ -5,7 +5,7 @@ import '../resets.css';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav">
-      <li className="nav-item">
+      <li className="nav-item hvr-sink">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -15,7 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item hvr-sink">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -25,7 +25,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item hvr-sink">
         <a
           href="#Portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -35,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item hvr-sink">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
