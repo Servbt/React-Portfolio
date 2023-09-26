@@ -58,6 +58,10 @@ ul {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.my-name {
+  font-size: 80px;
+}
+
 .web-devHead,
 .mail-header,
 .my-name,
@@ -147,6 +151,14 @@ ul {
 .bi-discord {
   color: var(--myplatinum);
   
+}
+
+.project-border {
+  width: 50%;
+}
+.project-border-2 {
+  width: 50%;
+  margin-left: 50%;
 }
 
 /* src/DiagonalDiv.css */
@@ -258,5 +270,9 @@ ul {
     margin-left: 5%;
   }
   
+  .project-border {
+    width: 90%;
+  }
+
 
 }
