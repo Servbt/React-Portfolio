@@ -161,6 +161,10 @@ ul {
   margin-left: 50%;
 }
 
+.project-name {
+  background-color: var(--myplatinum);
+}
+
 /* src/DiagonalDiv.css */
 .diagonal-div {
   width: 100%;
