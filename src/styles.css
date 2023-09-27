@@ -70,18 +70,19 @@ ul {
 }
 
 .under-me-header {
-  font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 
 .my-card {
   background-color: none;
 }
 
 
-.what-I-know , .about-me{
+
+.what-I-know , .about-me-title{
   font-size: 50px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -162,7 +163,17 @@ ul {
 }
 
 .project-name {
-  background-color: var(--myplatinum);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.project-pic {
+  border-radius: 0px;
+}
+
+.project-description {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: var(--myblack);
 }
 
 /* src/DiagonalDiv.css */
@@ -278,5 +289,13 @@ ul {
     width: 90%;
   }
 
+  .project-border-2 {
+    width: 80%;
+    margin-left: 20%;
+  }
+
+  .project-pic {
+    border-radius: 0px;
+  }
 
 }

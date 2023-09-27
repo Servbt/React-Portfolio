@@ -88,36 +88,36 @@ export default function Portfolio() {
 
       <div>
         <div className='d-flex justify-content-center border-bottom border-3 border-dark custom-border-2'></div>
-        <h1 className='text-center p-4 what-I-know'>Projects</h1>
+        <h1 className='text-center p-4 what-I-know '>Projects</h1>
 
-        <div className='container'>
+        <div className='container pt-4'>
           <ul className='row'>
             <div className='card bg-transparent border-0 col mb-5' style={{ width: '16rem' }}>
-              <img src={movie} className=' card-img-top' alt='movieMix'></img>
+              <img src={movie} className=' project-pic' alt='movieMix'></img>
             </div>
             <div className='col align-self-top'>
-              <h2 className='text-begin border-2 border-bottom border-dark project-border'>Mix Movie night</h2>
+              <h2 className='text-begin border-2 border-bottom border-dark project-border project-name'>Movie Mix night</h2>
               <p className='project-description project-border'> Mix and Match a variety of drinks and movies for a fun night of drinking!</p>
             </div>
           </ul>
 
           <ul className='row'>
             <div className='col align-self-top'>
-              <h2 className='text-end border-2 border-bottom border-dark project-border-2'>Nexus</h2>
+              <h2 className='text-end border-2 border-bottom border-dark project-border-2 project-name'>Nexus</h2>
               <p className='text-end project-description project-border-2'> Make an account and make your own wishlist of games, you can also create and see other user reviews!</p>
             </div>
             <div className='card bg-transparent border-0 col mb-5' style={{ width: '16rem' }}>
-              <img src={nexus} className='card-img-top' alt='movieMix'></img>
+              <img src={nexus} className='project-pic' alt='movieMix'></img>
             </div>
           </ul>
 
           <ul className='row'>
             <div className='card bg-transparent border-0 col mb-5' style={{ width: '16rem' }}>
-              <img src={Yumu2} className='card-img-top' alt='movieMix'></img>
+              <img src={Yumu2} className='project-pic' alt='movieMix'></img>
             </div>
             <div className='col align-self-top'>
-              <h2 className='text-begin border-2 border-bottom border-dark project-border '>Yumu (WIP)</h2>
-              <p className='project-description project-border'> Ambitious personal project that I'm working on. Made for the purpose of mass personal video preservation. </p>
+              <h2 className='text-begin border-2 border-bottom border-dark project-border project-name'>Yumu (WIP)</h2>
+              <p className='project-description project-border'> Ambitious personal project that I'm working on. Made for the purpose of mass video preservation. </p>
 
             </div>
           </ul>
