@@ -93,7 +93,7 @@ export default function Portfolio() {
         <div className='container pt-4'>
           <ul className='row'>
             <div className='card bg-transparent border-0 col mb-5' style={{ width: '16rem' }}>
-              <img src={movie} className=' project-pic' alt='movieMix'></img>
+              <img src={movie} className=' project-pic project-pic-border' alt='movieMix'></img>
             </div>
             <div className='col align-self-top'>
               <h2 className='text-begin border-2 border-bottom border-dark project-border project-name'>Movie Mix night</h2>
@@ -107,13 +107,13 @@ export default function Portfolio() {
               <p className='text-end project-description project-border-2'> Make an account and make your own wishlist of games, you can also create and see other user reviews!</p>
             </div>
             <div className='card bg-transparent border-0 col mb-5' style={{ width: '16rem' }}>
-              <img src={nexus} className='project-pic' alt='movieMix'></img>
+              <img src={nexus} className='project-pic project-pic-border' alt='Nexus'></img>
             </div>
           </ul>
 
           <ul className='row'>
             <div className='card bg-transparent border-0 col mb-5' style={{ width: '16rem' }}>
-              <img src={Yumu2} className='project-pic' alt='movieMix'></img>
+              <img src={Yumu2} className='project-pic project-pic-border' alt='Yumu'></img>
             </div>
             <div className='col align-self-top'>
               <h2 className='text-begin border-2 border-bottom border-dark project-border project-name'>Yumu (WIP)</h2>
