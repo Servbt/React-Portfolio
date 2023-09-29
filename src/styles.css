@@ -176,6 +176,17 @@ ul {
   color: var(--myblack);
 }
 
+.resume , .contact-icons {
+  text-decoration: none;
+  color: var(--myblack);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.icon-container {
+  padding-right: 50%;
+}
+
 .project-pic-border{ 
   border-radius: 7px;
   /* border: solid;
@@ -304,6 +315,14 @@ ul {
 
   .project-pic {
     border-radius: 0px;
+  }
+
+  .icon-container {
+    display: none;
+  }
+  
+  .resume-mobile {
+    margin-right: 30%;
   }
 
 }

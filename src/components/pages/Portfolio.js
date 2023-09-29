@@ -88,7 +88,7 @@ export default function Portfolio() {
 
       <div>
         <div className='d-flex justify-content-center border-bottom border-3 border-dark custom-border-2'></div>
-        <h1 className='text-center p-4 what-I-know '>Projects</h1>
+        <h1 className='text-center p-4 what-I-know mt-4 '>Projects</h1>
 
         <div className='container pt-4'>
           <ul className='row'>
@@ -118,7 +118,6 @@ export default function Portfolio() {
             <div className='col align-self-top'>
               <h2 className='text-begin border-2 border-bottom border-dark project-border project-name'>Yumu (WIP)</h2>
               <p className='project-description project-border'> Ambitious personal project that I'm working on. Made for the purpose of mass video preservation. </p>
-
             </div>
           </ul>
 
