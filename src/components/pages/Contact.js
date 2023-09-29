@@ -2,9 +2,38 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const ContactUs = () => {
-  const form = useRef();
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  // Form Validation
+  const form = useRef(null);
+  const [isSubmitDisabled, setSubmitDisabled] = useState(true);
+  const checkFormValidity = () => {
+    const formFields = form.current.elements;
+    let isValid = true;
 
+    for (let i = 0; i < formFields.length; i++) {
+      if (formFields[i].required && formFields[i].value.trim() === '') {
+        isValid = false;
+        break;
+      }
+    }
+    setSubmitDisabled(!isValid);
+  };
+
+  // User Feedback on Submit
+  const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+  const appendAlert = (message, type) => {
+    const wrapper = document.createElement('div')
+    wrapper.innerHTML = [
+      `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+      `   <div>${message}</div>`,
+      '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+      '</div>'
+    ].join('')
+  
+    alertPlaceholder.append(wrapper)
+  }
+  
+
+// Email Sending func from Email.js
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -12,14 +41,10 @@ export const ContactUs = () => {
       .then((result) => {
         console.log(result.text);
         console.log('message sent!');
-        setIsModalOpen(true); // Open the modal after sending the email.
+
       }, (error) => {
         console.log(error.text);
       });
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
   };
 
   return (
@@ -36,18 +61,19 @@ export const ContactUs = () => {
             <form ref={form} onSubmit={sendEmail}>
               <div className='form-group'>
                 <label className='d-block py-1 cust-form'>Name</label>
-                <input className='form-control' type="text" name="user_name" required />
+                <input className='form-control' type="text" name="user_name" required onChange={checkFormValidity}/>
               </div>
               <div className='form-group'>
                 <label className='d-block py-1 cust-form'>Email</label>
-                <input className='form-control' type="email" name="user_email" required />
+                <input className='form-control' type="email" name="user_email" required onChange={checkFormValidity}/>
               </div>
               <div className='form-group'>
                 <label className='d-block py-1 cust-form'>Message</label>
-                <textarea className='form-control' name="message" required />
+                <textarea className='form-control' name="message" required onChange={checkFormValidity}/>
               </div>
-              <input className='d-block btn btn-dark mt-2 mb-5 custom-btn ' type="submit" value="Send" />
+              <input id="liveAlertBtn" className='d-block btn btn-dark mt-2 mb-5 custom-btn ' type='submit' value='Send' disabled={isSubmitDisabled} onClick={() => appendAlert('Email sent, thank you so much!', 'success')} />
             </form>
+            <div id="liveAlertPlaceholder"></div>
           </div>
         </div>
 
@@ -87,29 +113,6 @@ export const ContactUs = () => {
           </div>
         </div>
       </div>
-
-
-      {isModalOpen && (
-        <div className="modal" tabIndex="-1" role="dialog">
-          <div className="modal-dialog" role="document">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title">Email Sent</h5>
-                <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={closeModal}>
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div className="modal-body">
-                <p>Your email has been sent successfully!</p>
-              </div>
-              <div className="modal-footer">
-                <button type="button" className="btn btn-primary" onClick={closeModal}>Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
 
 
     </div>
