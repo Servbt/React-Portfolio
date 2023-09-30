@@ -184,7 +184,7 @@ ul {
 }
 
 .icon-container {
-  padding-right: 50%;
+ display: flex;
 }
 
 .project-pic-border{ 
@@ -322,7 +322,11 @@ ul {
   }
   
   .resume-mobile {
-    margin-right: 30%;
+    margin-right: 15%;
+  }
+
+  .resume {
+    margin-left: 3%;
   }
 
 }
