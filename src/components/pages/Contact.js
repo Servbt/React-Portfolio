@@ -18,6 +18,20 @@ export const ContactUs = () => {
     setSubmitDisabled(!isValid);
   };
 
+// Email Validation
+const checkFormEmail = () => {
+  const emailInput = form.current.elements.user_email;
+  const emailValue = emailInput.value.trim();
+
+  if (emailValue && /^\S+@\S+\.\S+$/.test(emailValue)) {
+   return true;
+  } else if (emailValue && !/^\S+@\S+\.\S+$/.test(emailValue)) {
+    // You can use a more robust email validation regex here.
+    return false;
+  }
+
+};
+
   // User Feedback on Submit
   const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
   const appendAlert = (message, type) => {
@@ -71,7 +85,7 @@ export const ContactUs = () => {
                 <label className='d-block py-1 cust-form'>Message</label>
                 <textarea className='form-control' name="message" required onChange={checkFormValidity}/>
               </div>
-              <input id="liveAlertBtn" className='d-block btn btn-dark mt-2 mb-5 custom-btn ' type='submit' value='Send' disabled={isSubmitDisabled} onClick={() => appendAlert('Email sent, thank you so much!', 'success')} />
+              <input id="liveAlertBtn" className='d-block btn btn-dark mt-2 mb-5 custom-btn ' type='submit' value='Send' disabled={isSubmitDisabled} onClick={() =>  checkFormEmail() ? appendAlert('Email sent, thank you so much!', 'success') : appendAlert('Please Check Your Email!', 'danger')} />
             </form>
             <div id="liveAlertPlaceholder"></div>
           </div>
