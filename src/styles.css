@@ -330,3 +330,9 @@ ul {
   }
 
 }
+
+/* @media screen and (orientation: landscape) and (max-height: 400px) {
+  body {
+    transform: rotate(90deg);
+  }
+} */
