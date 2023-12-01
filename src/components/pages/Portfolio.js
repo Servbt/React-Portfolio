@@ -3,6 +3,7 @@ import movie from '../../Images/movieMix.png'
 import nexus from '../../Images/nexus.png'
 // import Yumu from '../../Images/Yumu.png'
 import Yumu2 from '../../Images/Yumu2.png'
+import todo from '../../Images/Todoblog.png'
 
 export default function Portfolio() {
 
@@ -118,6 +119,16 @@ export default function Portfolio() {
             <div className='col align-self-top'>
               <h2 className='text-begin border-2 border-bottom border-dark project-border project-name'>Yumu (WIP)</h2>
               <p className='project-description project-border'> Ambitious personal project that I'm working on. Made for the purpose of mass video preservation. </p>
+            </div>
+          </ul>
+
+          <ul className='row'>
+            <div className='col align-self-top'>
+              <h2 className='text-end border-2 border-bottom border-dark project-border-2 project-name'>Todoblog</h2>
+              <p className='text-end project-description project-border-2'> Create and edit your own todo/blog posts! </p>
+            </div>
+            <div className='card bg-transparent border-0 col mb-5' style={{ width: '16rem' }}>
+              <img src={todo} className='project-pic project-pic-border' alt='todo'></img>
             </div>
           </ul>
 
