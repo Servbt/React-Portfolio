@@ -1,14 +1,13 @@
-# Portfolio (WIP)
+### My portfolio
 
-## This page is currently under development
+Hello! This is my current portfolio, which is a single page react app that can be viewed on pc and mobile. If you have any recommendations or would just like to reach out please do so! I would love to get in touch, thank you so much for taking the time to read this.
 
-So far I've added in proprietary code and included snippets from my previous portfolio to fill the space that will eventually contain a real portfolio.
-In my todo list currently includes:
-  > Fleshing out the conditionals,
-  > Proper implementation of react routers,
-  > Further styling through bootstrap,
-  > Inclusion of actual technologies learned,
-  > More thorough contact page,
-  > Making an actual bio page relating to what I've learned.
+
+| Tools Used  |
+| ----------- |
+| React |
+| EmailJS |
+| Bootstrap |
+
 
 
