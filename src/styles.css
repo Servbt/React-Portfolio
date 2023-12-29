@@ -163,13 +163,15 @@ ul {
 }
 
 .project-name {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: var(--myblack);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
 }
 
-.project-pic {
+/* .project-pic {
   border-radius: 0px;
-}
+} */
 
 .project-description {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -188,7 +190,7 @@ ul {
 }
 
 .project-pic-border{ 
-  border-radius: 7px;
+  border-radius: 10px;
   /* border: solid;
   border-width: 5px;
   border-color: var(--mylightgreen); */
@@ -314,7 +316,7 @@ ul {
   }
 
   .project-pic {
-    border-radius: 0px;
+    border-radius: 30px;
   }
 
   .icon-container {
