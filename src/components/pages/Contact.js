@@ -37,9 +37,9 @@ const checkFormEmail = () => {
   const appendAlert = (message, type) => {
     const wrapper = document.createElement('div')
     wrapper.innerHTML = [
-      `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+      `<div className="alert alert-${type} alert-dismissible" role="alert">`,
       `   <div>${message}</div>`,
-      '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+      '   <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
       '</div>'
     ].join('')
   
@@ -95,7 +95,7 @@ const checkFormEmail = () => {
           <div className='d-flex resume-mobile justify-content-center'>
             <div className=' text-center'>
               <a href='https://drive.google.com/file/d/1HlaUy4XvOPrr71nVoHc6f0C318e-93Z9/view?usp=sharing' target='_none' className='resume'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' fill='currentColor' class='bi bi-file-earmark-arrow-down' viewBox='0 0 16 16'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' fill='currentColor' className='bi bi-file-earmark-arrow-down' viewBox='0 0 16 16'>
                   <path d='M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z' />
                   <path d='M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z' />
                 </svg>
@@ -120,7 +120,7 @@ const checkFormEmail = () => {
               </svg>
             </a>
             <a className='hvr-float contact-icons' href='https://2ubootcampnetwork.slack.com/team/U0428GK7U3H' target='_blank' rel='noreferrer'>
-              <svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' fill='currentColor' class='bi bi-slack m-1 custom-link' viewBox='0 0 16 16'>
+              <svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' fill='currentColor' className='bi bi-slack m-1 custom-link' viewBox='0 0 16 16'>
                 <path d='M3.362 10.11c0 .926-.756 1.681-1.681 1.681S0 11.036 0 10.111C0 9.186.756 8.43 1.68 8.43h1.682v1.68zm.846 0c0-.924.756-1.68 1.681-1.68s1.681.756 1.681 1.68v4.21c0 .924-.756 1.68-1.68 1.68a1.685 1.685 0 0 1-1.682-1.68v-4.21zM5.89 3.362c-.926 0-1.682-.756-1.682-1.681S4.964 0 5.89 0s1.68.756 1.68 1.68v1.682H5.89zm0 .846c.924 0 1.68.756 1.68 1.681S6.814 7.57 5.89 7.57H1.68C.757 7.57 0 6.814 0 5.89c0-.926.756-1.682 1.68-1.682h4.21zm6.749 1.682c0-.926.755-1.682 1.68-1.682.925 0 1.681.756 1.681 1.681s-.756 1.681-1.68 1.681h-1.681V5.89zm-.848 0c0 .924-.755 1.68-1.68 1.68A1.685 1.685 0 0 1 8.43 5.89V1.68C8.43.757 9.186 0 10.11 0c.926 0 1.681.756 1.681 1.68v4.21zm-1.681 6.748c.926 0 1.682.756 1.682 1.681S11.036 16 10.11 16s-1.681-.756-1.681-1.68v-1.682h1.68zm0-.847c-.924 0-1.68-.755-1.68-1.68 0-.925.756-1.681 1.68-1.681h4.21c.924 0 1.68.756 1.68 1.68 0 .926-.756 1.681-1.68 1.681h-4.21z' />
               </svg>
             </a>
