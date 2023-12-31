@@ -331,6 +331,18 @@ ul {
     margin-left: 3%;
   }
 
+  .bottom {
+    margin-top: 50px;
+  }
+
+  .know-list {
+    font-size: 18px;
+  }
+
+  .boot {
+    font-size: px;
+  }
+
 }
 
 /* @media screen and (orientation: landscape) and (max-height: 400px) {
