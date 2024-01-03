@@ -93,18 +93,18 @@ export default function Portfolio() {
         <div className='d-flex justify-content-center border-bottom border-3 border-dark custom-border-2'></div>
         <h1 className='text-center p-4 what-I-know mt-4 '>Projects</h1>
 
-        <div className='container pt-4'>
-          <ul className='row'>
+        <div className='container pt-4 '>
+          <ul className='row hvr-forward my-3'>
             <div className='card bg-transparent border-0 col mb-5' style={{ width: '16rem' }}>
               <img src={movie} className=' project-pic project-pic-border' alt='movieMix'></img>
             </div>
             <div className='col align-self-top'>
-              <a href='https://servbt.github.io/Mix-up-Movie-Night/' target='_empty' className='text-begin border-2 border-bottom border-dark project-border project-name fs-2'>Movie Mix night</a>
+              <a href='https://servbt.github.io/Mix-up-Movie-Night/' target='_empty' className='text-begin border-2 border-bottom border-dark project-border project-name fs-2 '>Movie Mix night</a>
               <p className='project-description project-border pt-1'> Mix and Match a variety of drinks and movies for a fun night of drinking!</p>
             </div>
           </ul>
 
-          <ul className='row'>
+          <ul className='row hvr-backward my-3'>
             <div className='col align-self-top'>
               <a href='https://still-sea-39292.herokuapp.com/' target='_empty' className='d-flex justify-content-end text-end border-2 border-bottom border-dark project-border-2 project-name fs-2'>Nexus</a>
               <p className='text-end project-description project-border-2 pt-1'> Make an account and make your own wishlist of games, you can also create and see other user reviews!</p>
@@ -113,7 +113,7 @@ export default function Portfolio() {
               <img src={nexus} className='project-pic project-pic-border' alt='Nexus'></img>
             </div>
           </ul>
-          <ul className='row'>
+          <ul className='row hvr-forward my-3'>
             <div className='card bg-transparent border-0 col mb-5' style={{ width: '16rem' }}>
               <img src={musicSaver} className=' project-pic project-pic-border' alt='movieMix'></img>
             </div>
@@ -123,7 +123,7 @@ export default function Portfolio() {
             </div>
           </ul>
 
-          <ul className='row'>
+          <ul className='row hvr-backward my-3'>
             <div className='col align-self-top'>
             <a href='https://ejs-todolist-529924016ab2.herokuapp.com/' target='_empty' className='d-flex justify-content-end text-end border-2 border-bottom border-dark project-border-2 project-name fs-2'>Todoblog</a>
               <p className='text-end project-description project-border-2 pt-1'> Create and edit your own todo/blog posts! </p>
@@ -133,7 +133,7 @@ export default function Portfolio() {
             </div>
           </ul>
 
-          <ul className='row'>
+          <ul className='row hvr-forward my-3'>
             <div className='card bg-transparent border-0 col mb-5' style={{ width: '16rem' }}>
               <img src={Yumu2} className='project-pic project-pic-border' alt='Yumu'></img>
             </div>
@@ -145,7 +145,7 @@ export default function Portfolio() {
 
 
           
-          <ul className='row'>
+          <ul className='row hvr-backward my-3'>
             <div className='col align-self-top'>
             <a href='https://servbt.github.io/Password-Generator/' target='_empty' className='d-flex justify-content-end text-end border-2 border-bottom border-dark project-border-2 project-name fs-2'>Password Generator</a>
               <p className='text-end project-description project-border-2'>A simple little app that just makes a random password if you need one.</p>
