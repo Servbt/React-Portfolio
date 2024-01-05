@@ -9,18 +9,18 @@ import BottomBar from './BottomBar';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
-  const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
-    }
-    if (currentPage === 'About') {
-      return <About />;
-    } 
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
-    }
-    return <Contact />;
-  };
+  // const renderPage = () => {
+  //   if (currentPage === 'Home') {
+  //     return <Home />;
+  //   }
+  //   if (currentPage === 'About') {
+  //     return <About />;
+  //   } 
+  //   if (currentPage === 'Portfolio') {
+  //     return <Portfolio />;
+  //   }
+  //   return <Contact />;
+  // };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
@@ -31,7 +31,10 @@ export default function PortfolioContainer() {
       </div>
 
       <div className='main-content'>
-        {renderPage()}
+      <Home />
+      <About />
+      <Portfolio />
+      <Contact />
       </div>
     <div className='bottom-content'>
       <BottomBar/>
