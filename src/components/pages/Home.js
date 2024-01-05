@@ -12,7 +12,7 @@ export default function Home() {
       {/* <div className='position-absolute top-0 end-0'>
         <img src={bubble} alt='bubble background'></img>
       </div> */}
-      <div className='position-absolute top-50 start-50 translate-middle p-5 '>
+      <div className='p-5'>
         <h4 className='ps-4 fs-5 hello-header'>Hello! my name is</h4>
         <div className='border-bottom border-2 border-dark custom-border'></div>
         <h1 className='ps-4 mt-4 my-name'>Arian Rezvani</h1>
