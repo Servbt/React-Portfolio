@@ -6,7 +6,7 @@ function NavTabs() {
   return (
     <ul className="nav cust-nav p-4">
       <li className="nav-item hvr-sink arian-link">
-        <a href="#Home" className="nav-link">Arian Rezvani</a>
+        <a href="#home" className="nav-link">Arian Rezvani</a>
       </li>
 
       <li className="nav-item hvr-sink portfolio-link">

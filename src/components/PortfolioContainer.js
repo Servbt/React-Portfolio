@@ -1,7 +1,7 @@
 import React from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
-// import About from './pages/About';
+import About from './pages/About';
 // import Portfolio from './pages/Portfolio';
 // import Contact from './pages/Contact';
 // import BottomBar from './BottomBar';
@@ -14,7 +14,7 @@ export default function PortfolioContainer() {
       </div>
       <div className='main-content'>
       <Home />
-      {/* <About /> */}
+      <About />
       {/* <Portfolio /> */}
       {/* <Contact /> */}
       </div>

@@ -9,25 +9,13 @@ export default function About() {
 
   return (
 
-    <div className='container main-content-2 pt-5 '>
-      <div className='row ps-2'>
-        <div className='col'>
-          <h1 className='about-me-title pb-3 text-center'>About Me</h1>
-          <p className='under-me-header about-me text-center'>I'm currently a pharmacy tech at Publix Super Markets
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-capsule-pill" viewBox="0 0 16 16">
-              <path d="M11.02 5.364a3 3 0 0 0-4.242-4.243L1.121 6.778a3 3 0 1 0 4.243 4.243l5.657-5.657Zm-6.413-.657 2.878-2.879a2 2 0 1 1 2.829 2.829L7.435 7.536 4.607 4.707ZM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm-.5 1.042a3 3 0 0 0 0 5.917V9.042Zm1 5.917a3 3 0 0 0 0-5.917v5.917Z" />
-            </svg>
-            <br></br>
-            Making websites and looking at code is part of what I do.
-            <br></br>
-            I also love playing videogames, if you'd like to add me here are my links!</p>
-        </div>
-      </div>
+    <div className='about pt-5'>
+      <h1 className='d-flex justify-content-center about-header segoi'>About Me</h1>
+        <p className='about-block segoi text-center '>
+          Currently, I work as a pharmacy technician at Publix Supermarkets. I am capable of crafting functional and responsive web applications, leveraging the diverse skill set acquired through UCF's full-stack program. Proficient in creating compelling front-end designs and setting up robust databases, I am eager to collaborate and learn from others in the dynamic field of web development. My strengths lie in adjudication and communication, and I am enthusiastic about contributing my skills to innovative projects. I look forward to working with a collaborative team and continuously expanding my knowledge!
+        </p>
 
-      <div className='ps-3 '>
-
-        <div className="diagonal-div row ">
-          {/* Content inside the diagonal div */}
+      {/* <div className='ps-3 '>
           <a href='https://steamcommunity.com/profiles/76561198044842761/' target='_blank' rel="noreferrer" className='col steam-cust hvr-grow'>
             <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" fill="currentColor" className="bi bi-steam" viewBox="0 0 16 16">
               <path d="M.329 10.333A8.01 8.01 0 0 0 7.99 16C12.414 16 16 12.418 16 8s-3.586-8-8.009-8A8.006 8.006 0 0 0 0 7.468l.003.006 4.304 1.769A2.198 2.198 0 0 1 5.62 8.88l1.96-2.844-.001-.04a3.046 3.046 0 0 1 3.042-3.043 3.046 3.046 0 0 1 3.042 3.043 3.047 3.047 0 0 1-3.111 3.044l-2.804 2a2.223 2.223 0 0 1-3.075 2.11 2.217 2.217 0 0 1-1.312-1.568L.33 10.333Z" />
@@ -42,8 +30,7 @@ export default function About() {
             </svg>
             <p>My Discord</p>
           </a>
-        </div>
-      </div>
+        </div> */}
 
 
     </div>

@@ -16,7 +16,7 @@
 .nav-item a {
 text-decoration: none;
 color: var(--myplatinum);
---bs-nav-link-hover-color: var(--mydarkBlue);
+--bs-nav-link-hover-color: var(--mygreen);
 font-size: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -72,3 +72,31 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--myplatinum);
 }
 
+
+/* about.js styling */
+
+.about {
+  background-image: linear-gradient(to bottom right, rgb(220, 225, 222), rgb(156, 197, 161));
+  height: 100vh;
+}
+
+.about-header  {
+  font-size: 48px;
+  margin: 20px;
+  padding: 20px;
+  background-color: var(--mylightgreen);
+  filter: drop-shadow(16px 16px);
+  color: var(--myblack);
+}
+
+.about-block {
+  width: 60%;
+  font-size: 24px;
+  margin: 40px;
+  padding: 40px;
+  margin-left: 20%;
+  background-color: var(--myblack);
+  color: var(--myplatinum);
+  filter: drop-shadow(16px 16px);
+  
+}
