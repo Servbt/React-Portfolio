@@ -57,3 +57,18 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--myplatinum);
 }
 
+.email-header {
+  padding-top: 7%;
+  color: var(--myplatinum);
+  font-size: 30px;
+}
+
+.icon-container {
+  padding-top: 15%;
+}
+
+.contact-icons {
+  text-decoration: none;
+  color: var(--myplatinum);
+}
+
