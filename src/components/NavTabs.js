@@ -5,7 +5,7 @@ import '../resets.css';
 function NavTabs() {
   return (
     <ul className="nav cust-nav p-4">
-      <li className="nav-item hvr-sink arian">
+      <li className="nav-item hvr-sink arian-link">
         <a href="#Home" className="nav-link">Arian Rezvani</a>
       </li>
 
