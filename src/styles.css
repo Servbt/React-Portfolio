@@ -5,3 +5,36 @@
   --mylightgreen: rgb(156, 197, 161);
   --myplatinum: rgb(220, 225, 222);
 }
+
+/* universal segoi font */
+
+.segoi {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* nav-bar styling */
+.nav-item a {
+text-decoration: none;
+color: var(--myplatinum);
+--bs-nav-link-hover-color: var(--mydarkBlue);
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cust-nav {
+  position: fixed;
+}
+
+.arian {
+  padding-left: 60px;
+}
+
+.portfolio-link {
+  padding-left: 60vw;
+}
+
+/* home.js Styling */
+.home {
+  background-image: url("./Images/home-bg.jpg");
+  height: 100vh;
+}
