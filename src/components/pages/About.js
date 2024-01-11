@@ -12,26 +12,80 @@ export default function About() {
     <div className='about pt-5'>
       <h1 className='d-flex justify-content-center about-header segoi'>About Me</h1>
         <p className='about-block segoi text-center '>
-          Currently, I work as a pharmacy technician at Publix Supermarkets. I am capable of crafting functional and responsive web applications, leveraging the diverse skill set acquired through UCF's full-stack program. Proficient in creating compelling front-end designs and setting up robust databases, I am eager to collaborate and learn from others in the dynamic field of web development. My strengths lie in adjudication and communication, and I am enthusiastic about contributing my skills to innovative projects. I look forward to working with a collaborative team and continuously expanding my knowledge!
+          Currently, I work as a pharmacy technician at Publix Supermarkets! I am capable of crafting functional and responsive web applications, leveraging the diverse skill set acquired through UCF's full-stack program. Proficient in creating compelling front-end designs and setting up robust databases, I am eager to collaborate and learn from others in the dynamic field of web development. My strengths lie in adjudication and communication, and I am enthusiastic about contributing my skills to innovative projects. I look forward to working with a collaborative team and continuously expanding my knowledge!
         </p>
 
-      {/* <div className='ps-3 '>
-          <a href='https://steamcommunity.com/profiles/76561198044842761/' target='_blank' rel="noreferrer" className='col steam-cust hvr-grow'>
-            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" fill="currentColor" className="bi bi-steam" viewBox="0 0 16 16">
-              <path d="M.329 10.333A8.01 8.01 0 0 0 7.99 16C12.414 16 16 12.418 16 8s-3.586-8-8.009-8A8.006 8.006 0 0 0 0 7.468l.003.006 4.304 1.769A2.198 2.198 0 0 1 5.62 8.88l1.96-2.844-.001-.04a3.046 3.046 0 0 1 3.042-3.043 3.046 3.046 0 0 1 3.042 3.043 3.047 3.047 0 0 1-3.111 3.044l-2.804 2a2.223 2.223 0 0 1-3.075 2.11 2.217 2.217 0 0 1-1.312-1.568L.33 10.333Z" />
-              <path d="M4.868 12.683a1.715 1.715 0 0 0 1.318-3.165 1.705 1.705 0 0 0-1.263-.02l1.023.424a1.261 1.261 0 1 1-.97 2.33l-.99-.41a1.7 1.7 0 0 0 .882.84Zm3.726-6.687a2.03 2.03 0 0 0 2.027 2.029 2.03 2.03 0 0 0 2.027-2.029 2.03 2.03 0 0 0-2.027-2.027 2.03 2.03 0 0 0-2.027 2.027Zm2.03-1.527a1.524 1.524 0 1 1-.002 3.048 1.524 1.524 0 0 1 .002-3.048Z" />
-            </svg>
-            <p className='cust-link-text'>My Steam</p>
-          </a >
+        <div>
+        <h1 className='text-center p-4 skills-header'>Skills</h1>
 
-          <a href='https://discord.com/channels/127651474531549184' target='_blank' rel="noreferrer" className='col discord-cust hvr-grow'>
-            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" fill="currentColor" className="bi bi-discord" viewBox="0 0 16 16">
-              <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
-            </svg>
-            <p>My Discord</p>
-          </a>
-        </div> */}
+        <ul className='container pt-3 '>
+          <div className='row d-flex'>
 
+            <div className='card bg-transparent border-0 col ' style={{ width: '18rem' }}>
+              <div className='card-body text-center hvr-float'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='90' height='90' fill='currentColor' className='bi bi-git' viewBox='0 0 16 16'>
+                  <path d='M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457' />
+                </svg>
+                <p className='card-text pt-3 know-list'>Git Bash</p>
+              </div>
+            </div>
+
+            <div className='card bg-transparent border-0 col hvr-float' style={{ width: '18rem' }}>
+              <div className='card-body text-center'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='90' height='90' fill='currentColor' className='bi bi-hexagon-half' viewBox='0 0 16 16'>
+                  <path d='M14 4.577v6.846L8 15V1l6 3.577zM8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z' />
+                </svg>
+                <p className='card-text pt-3 know-list node'>Node.js</p>
+              </div>
+            </div>
+
+            <div className='card bg-transparent border-0 col hvr-float' style={{ width: '18rem' }}>
+              <div className='card-body text-center'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='90' height='90' fill='currentColor' className='bi bi-database' viewBox='0 0 16 16'>
+                  <path d='M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313ZM13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 5.698ZM14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13V4Zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 8.698Zm0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525Z' />
+                </svg>
+                <p className='card-text pt-3 know-list'>MongoDB</p>
+              </div>
+            </div>
+          </div>
+        </ul>
+        <ul className='container pt-3'>
+          <div className='row d-flex'>
+
+            <div className='card bg-transparent border-0 col hvr-float' style={{ width: '18rem' }}>
+              <div className='card-body text-center'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='90' height='90' fill='currentColor' className='bi bi-bootstrap' viewBox='0 0 16 16'>
+                  <path d='M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z' />
+                  <path d='M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z' />
+                </svg>
+                <p className='card-text pt-3 know-list text-resize boot'>Bootstrap</p>
+              </div>
+            </div>
+
+            <div className='card bg-transparent border-0 col hvr-float' style={{ width: '18rem' }}>
+              <div className='card-body text-center'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='90' height='90' fill='currentColor' className='bi bi-window-split' viewBox='0 0 16 16'>
+                  <path d='M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z' />
+                  <path d='M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2Zm12 1a1 1 0 0 1 1 1v2H1V3a1 1 0 0 1 1-1h12ZM1 13V6h6.5v8H2a1 1 0 0 1-1-1Zm7.5 1V6H15v7a1 1 0 0 1-1 1H8.5Z' />
+                </svg>
+                <p className='card-text pt-3 know-list'>React</p>
+              </div>
+            </div>
+
+            <div className='card bg-transparent border-0 col hvr-float' style={{ width: '18rem' }}>
+              <div className='card-body text-center'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='90' height='90' fill='currentColor' className='bi bi-database-fill' viewBox='0 0 16 16'>
+                  <path d='M3.904 1.777C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4s-.875 1.755-1.904 2.223C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777C2.875 5.755 2 5.007 2 4s.875-1.755 1.904-2.223Z' />
+                  <path d='M2 6.161V7c0 1.007.875 1.755 1.904 2.223C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777C13.125 8.755 14 8.007 14 7v-.839c-.457.432-1.004.751-1.49.972C11.278 7.693 9.682 8 8 8s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z' />
+                  <path d='M2 9.161V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13s3.022-.289 4.096-.777C13.125 11.755 14 11.007 14 10v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z' />
+                  <path d='M2 12.161V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z' />
+                </svg>
+                <p className='card-text pt-3 know-list text-resize'>SQL/<br></br>NoSQL</p>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
 
     </div>
 
