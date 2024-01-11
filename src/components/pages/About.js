@@ -16,7 +16,7 @@ export default function About() {
         </p>
 
         <div>
-        <h1 className='text-center p-4 skills-header'>Skills</h1>
+        <h1 className='text-center p-4 skills-header segoi'>Skills</h1>
 
         <ul className='container pt-3 '>
           <div className='row d-flex'>
