@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import '../styles.css';
 import '../resets.css';
 
@@ -6,19 +7,27 @@ function NavTabs() {
   return (
     <ul className="nav cust-nav p-4 container">
       <li className="nav-item arian-link row px-4">
-        <a href="#home" className="nav-link">Arian Rezvani</a>
+        <Link to="home" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">
+          Arian Rezvani
+        </Link>
       </li>
 
       <li className="nav-item portfolio-link px-4 row">
-        <a href="#Portfolio" className="nav-link">Portfolio</a>
+        <Link to="Portfolio" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">
+          Portfolio
+        </Link>
       </li>
 
       <li className="nav-item px-4 row">
-        <a href="#About" className="nav-link">About</a>
+        <Link to="About" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">
+          About
+        </Link>
       </li>
 
       <li className="nav-item px-4 row">
-        <a href="#contact" className="nav-link">Contact</a>
+        <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">
+          Contact
+        </Link>
       </li>
     </ul>
   );

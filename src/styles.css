@@ -13,6 +13,11 @@
 }
 
 /* nav-bar styling */
+
+.scrolled {
+  background-color: #333; /* Set the new background color on scroll */
+} 
+
 .nav-item a {
   text-decoration: none;
   color: var(--myplatinum);
@@ -23,6 +28,8 @@
 
 .cust-nav {
   position: fixed;
+  background-color: transparent; /* Set initial background color */
+  transition: background-color 0.3s ease; /* Add smooth transition */
 }
 
 .arian-link {
@@ -40,7 +47,8 @@
 }
 
 .hello {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-bottom: 20%;
   color: var(--myblack)
 }
@@ -195,10 +203,13 @@
 .resume {
   text-decoration: none;
   color: var(--myblack);
+  
 }
 
 .resume-image {
-  background-color: var(--mygreen);
+  background-color: var(--mylightgreen);
+  filter: drop-shadow(16px 16px);
+
 }
 
 .placeholder {
@@ -212,4 +223,15 @@
 
 .custom-btn {
   width: 100%;
+}
+
+/* bottombar.js styling */
+
+.bottom {
+  text-decoration: none;
+  background-image: linear-gradient(to top right, rgb(220, 225, 222), rgb(156, 197, 161));
+}
+
+.custom-link-2 {
+  color: var(--myblack);
 }

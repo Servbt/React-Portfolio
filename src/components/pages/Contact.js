@@ -63,7 +63,7 @@ export const ContactUs = () => {
 
   return (
     <div className=" contact-body p-5 ">
-        <h1 className='text-center contact-header segoi mb-4'>Contact</h1>
+        <h1 id='contact' className='text-center contact-header segoi mb-4'>Contact</h1>
       <div className="row">
         <div className=" col-md-6 align-self-top">
           {/* <h2 className='lemme-know text-left'>Let me know if you'd like to get in touch!</h2> */}
@@ -94,7 +94,7 @@ export const ContactUs = () => {
 
         <div className='resume col-md-4 p-5 mt-5'>
           <div className='resume-mobile justify-content-center'>
-            <div className=' text-center resume-image p-3 border border-5 border-dark rounded-5'>
+            <div className=' text-center resume-image p-3 rounded-5'>
               <a href='https://drive.google.com/file/d/1HlaUy4XvOPrr71nVoHc6f0C318e-93Z9/view?usp=sharing' target='_none' className='resume'>
                 <svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' fill='currentColor' className='bi bi-file-earmark-arrow-down' viewBox='0 0 16 16'>
                   <path d='M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z' />

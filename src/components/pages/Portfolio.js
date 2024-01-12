@@ -15,7 +15,7 @@ export default function Portfolio() {
     <div className='main-content portfolio-body'>
       {/* projects section */}
       <div>
-        <h1 className='text-center project-header segoi'>Projects</h1>
+        <h1 id='Portfolio' className='text-center project-header segoi'>Projects</h1>
 
         <div className='container pt-4 '>
           <ul className='row my-3'>

@@ -4,9 +4,10 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-// import BottomBar from './BottomBar';
+import BottomBar from './BottomBar';
 
 export default function PortfolioContainer() {
+
   return (
     <div className='master-div'>
       <div className='nav-bar'>
@@ -19,7 +20,7 @@ export default function PortfolioContainer() {
       <Contact />
       </div>
     <div className='bottom-content'>
-      {/* <BottomBar/> */}
+      <BottomBar/>
     </div>
     </div>
   );
