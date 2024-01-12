@@ -154,3 +154,62 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 38rem;
 }
+
+/* contact.js styling */
+
+.contact-header {
+  font-size: 48px;
+  width: 50%;
+  margin-left: 25%;
+  padding: 20px;
+  background-color: var(--mylightgreen);
+  filter: drop-shadow(16px 16px);
+  color: var(--myblack);
+}
+
+.contact-body {
+  background-image: linear-gradient(to bottom right, rgb(220, 225, 222), rgb(156, 197, 161));
+}
+
+.lemme-know {
+  font-size: 38px;
+}
+
+.custom-form-cont {
+  margin-left: 10%;
+  /* background-color: var(--mydarkBlue); */
+}
+
+.inside-form {
+   background-color: var(--mydarkBlue);
+  filter: drop-shadow(16px 16px);
+
+}
+
+.cust-form {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: var(--myplatinum);
+}
+
+.resume {
+  text-decoration: none;
+  color: var(--myblack);
+}
+
+.resume-image {
+  background-color: var(--mygreen);
+}
+
+.placeholder {
+  color: var(--myplatinum);
+}
+
+.popup {
+  font-size: 28px;
+  color: var(--myplatinum)
+}
+
+.custom-btn {
+  width: 100%;
+}

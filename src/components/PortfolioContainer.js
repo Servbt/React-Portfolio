@@ -3,7 +3,7 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
-// import Contact from './pages/Contact';
+import Contact from './pages/Contact';
 // import BottomBar from './BottomBar';
 
 export default function PortfolioContainer() {
@@ -16,7 +16,7 @@ export default function PortfolioContainer() {
       <Home />
       <About />
       <Portfolio />
-      {/* <Contact /> */}
+      <Contact />
       </div>
     <div className='bottom-content'>
       {/* <BottomBar/> */}

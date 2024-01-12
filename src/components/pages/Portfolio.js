@@ -13,7 +13,7 @@ export default function Portfolio() {
 
   return (
     <div className='main-content portfolio-body'>
-    {/* projects section */}
+      {/* projects section */}
       <div>
         <h1 className='text-center project-header segoi'>Projects</h1>
 
@@ -42,14 +42,14 @@ export default function Portfolio() {
               <img src={musicSaver} className=' project-pic rounded' alt='movieMix'></img>
             </div>
             <div className='col align-self-top text-center'>
-            <a href='https://music-saver-3b51d79cbfa1.herokuapp.com/' target='_empty' className='project-name fs-1'>Music Saver</a>
+              <a href='https://music-saver-3b51d79cbfa1.herokuapp.com/' target='_empty' className='project-name fs-1'>Music Saver</a>
               <p className='project-description pt-1 rounded-2 p-3'>Look for any Youtube video using Google's API. Then save a list of any videos that you'd like on local storage! Made with axios and EJS.</p>
             </div>
           </ul>
 
           <ul className='row my-3'>
             <div className='col align-self-top text-center me-4'>
-            <a href='https://ejs-todolist-529924016ab2.herokuapp.com/' target='_empty' className='project-name fs-1'>Todoblog</a>
+              <a href='https://ejs-todolist-529924016ab2.herokuapp.com/' target='_empty' className='project-name fs-1'>Todoblog</a>
               <p className=' project-description pt-1 rounded-2 p-3'> Create and edit your own todo/blog posts! Also Made server side with express. </p>
             </div>
             <div className='col mb-5'>
@@ -62,11 +62,11 @@ export default function Portfolio() {
               <img src={Yumu2} className='project-pic rounded' alt='Yumu'></img>
             </div>
             <div className='col align-self-top text-center'>
-            <a href='https://github.com/Servbt/Yumu' target='_empty' className='project-name fs-1'>Yumu (WIP)</a>
-              <p className='project-description pt-1 rounded-2 p-3'> Ambitious personal project that I'm working on. Made for the purpose of mass video preservation. </p>
+              <a href='https://github.com/Servbt/Yumu' target='_empty' className='project-name fs-1'>Yumu (WIP)</a>
+              <p className='project-description pt-1 rounded-2 p-3'> Ambitious personal project that I'm working on. Made for the purpose of mass video preservation. Just a Landing page for now! </p>
             </div>
           </ul>
-          
+
           {/* <ul className='row my-3'>
             <div className='col align-self-top'>
             <a href='https://servbt.github.io/Password-Generator/' target='_empty' className='text-center-2 project-name fs-1'>Password Generator</a>
@@ -78,8 +78,7 @@ export default function Portfolio() {
           </ul> */}
 
         </div>
-
-
+        <div className='d-flex'></div>
       </div>
     </div>
   );
