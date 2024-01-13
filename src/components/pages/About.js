@@ -50,7 +50,7 @@ export default function About() {
           </div>
         </ul>
         <ul className='container pt-3'>
-          <div className='row d-flex'>
+          <div className='row d-flex know-list-container'>
 
             <div className='card bg-transparent border-0 col hvr-float' style={{ width: '18rem' }}>
               <div className='card-body text-center'>
@@ -86,6 +86,7 @@ export default function About() {
           </div>
         </ul>
       </div>
+      <div className='d-flex about-mobile-sep'></div>
 
     </div>
 

@@ -14,7 +14,10 @@
 
 /* nav-bar styling */
 .scrolled-2 {
+  color: var(--mydarkBlue);
   background-color: var(--myblack);
+  filter: drop-shadow(8px 8px);
+
 }
 
 .scrolled a {
@@ -24,7 +27,7 @@
   /* background-color: var(--mydarkBlue); */
   font-size: 21px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} 
+}
 
 .nav-item a {
   text-decoration: none;
@@ -35,8 +38,10 @@
 }
 
 .cust-nav {
-  background-color: transparent; /* Set initial background color */
-  transition: background-color 0.5s ease; /* Add smooth transition */
+  background-color: transparent;
+  /* Set initial background color */
+  transition: background-color 0.5s ease;
+  /* Add smooth transition */
 }
 
 .arian-link {
@@ -60,7 +65,7 @@
 
 .hello {
   font-size: 40px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-bottom: 20%;
   color: var(--myblack)
 }
@@ -201,7 +206,7 @@
 }
 
 .inside-form {
-   background-color: var(--mydarkBlue);
+  background-color: var(--mydarkBlue);
   filter: drop-shadow(16px 16px);
 
 }
@@ -215,7 +220,7 @@
 .resume {
   text-decoration: none;
   color: var(--myblack);
-  
+
 }
 
 .resume-image {
@@ -250,176 +255,177 @@
 
 @media (max-width: 576px) {
 
-  :root {
-    /* Keep your color variables unchanged */
-  }
-  
+
   /* Universal Segoi font */
-  
+
   .segoi {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  
+
   /* Nav-bar styling */
   .scrolled-2 {
     background-color: var(--myblack);
   }
-  
+
   .scrolled a,
   .nav-item a {
-    font-size: 18px; /* Adjust font size for smaller screens */
+    font-size: 18px;
   }
-  
-  /* Adjust padding for arian-link in smaller screens */
-  .arian-link {
-    padding-right: 20px;
-  }
-  
+
   /* Adjust position of portfolio-link */
   .portfolio-link {
-    padding-left: 10px; /* Adjust as needed */
+    padding-left: 10px;
   }
-  
+
   /* Home.js Styling */
   .home {
-    height: 100vh; /* Adjust height for smaller screens */
+    height: 101vh;
   }
-  
+
   .hello {
-    font-size: 30px; /* Adjust font size for smaller screens */
-    padding-bottom: 10%; /* Adjust padding for smaller screens */
+    font-size: 30px;
+    padding-bottom: 90%;
+    padding-right: 10%;
   }
-  
+
   .arian-header {
-    font-size: 60px; /* Adjust font size for smaller screens */
-    padding-bottom: 5%; /* Adjust padding for smaller screens */
+    font-size: 60px;
+    padding-bottom: 30%;
   }
-  
+
   .dev-header {
-    font-size: 30px; /* Adjust font size for smaller screens */
+    font-size: 30px;
+    padding-top: 40%;
   }
-  
+
   .email-header {
-    padding-top: 5%; /* Adjust padding for smaller screens */
-    font-size: 24px; /* Adjust font size for smaller screens */
+    padding-top: 80%;
+    font-size: 20px;
+    padding-left: 12%;
   }
-  
+
   .icon-container {
-    padding-top: 10%; /* Adjust padding for smaller screens */
+    padding-top: 120%;
   }
-  
+
+  .bi-github,
+  .bi-linkedin,
+  .bi-slack {
+    width: 40px;
+  }
+
   /* About.js styling */
   .about {
-    height: auto; /* Adjust height for smaller screens */
+    height: auto;
   }
-  
+
   .about-header {
-    font-size: 36px; /* Adjust font size for smaller screens */
-    width: 90%; /* Adjust width for smaller screens */
+    font-size: 36px;
+    width: 90%;
     margin: 10px;
     margin-left: 5%;
     padding: 10px;
   }
-  
+
   .about-block {
-    width: 80%; /* Adjust width for smaller screens */
-    font-size: 18px; /* Adjust font size for smaller screens */
-    margin: 20px;
-    padding: 20px;
+    width: 80%;
+    font-size: 18px;
+    margin: 40px;
+    padding: 10px;
     margin-left: 10%;
   }
-  
+
   .skills-header {
-    font-size: 36px; /* Adjust font size for smaller screens */
-    width: 70%; /* Adjust width for smaller screens */
+    font-size: 36px;
+    width: 70%;
     margin: 10px;
     margin-left: 15%;
     padding: 10px;
   }
-  
+
   .know-list {
-    font-size: 20px; /* Adjust font size for smaller screens */
+    font-size: 17px;
   }
-  
+
+  .bi-git,
+  .bi-hexagon-half,
+  .bi-database,
+  .bi-bootstrap,
+  .bi-window-split,
+  .bi-database-fill {
+    width: 70px;
+  }
+
+  .about-mobile-sep {
+    background-color: var(--mylightgreen);
+  }
+
   /* Portfolio.js styling */
   .portfolio-body {
-    height: auto; /* Adjust height for smaller screens */
+    height: auto;
   }
-  
+
   .project-header {
-    font-size: 36px; /* Adjust font size for smaller screens */
-    width: 90%; /* Adjust width for smaller screens */
+    font-size: 36px;
+    width: 90%;
     margin-left: 5%;
     padding: 10px;
   }
-  
+
   .project-name {
-    font-size: 24px; /* Adjust font size for smaller screens */
+    font-size: 24px;
   }
-  
+
   .project-description {
-    font-size: 20px; /* Adjust font size for smaller screens */
+    font-size: 16px;
   }
-  
+
   .project-pic {
-    width: 100%; /* Adjust width for smaller screens */
+    width: 100%;
+    margin-top: 40%;
   }
-  
+
   /* Contact.js styling */
   .contact-header {
-    font-size: 36px; /* Adjust font size for smaller screens */
-    width: 70%; /* Adjust width for smaller screens */
+    font-size: 36px;
+    width: 70%;
     margin-left: 15%;
     padding: 10px;
   }
-  
+
   .contact-body {
-    height: auto; /* Adjust height for smaller screens */
+    height: auto;
   }
-  
+
   .lemme-know {
-    font-size: 28px; /* Adjust font size for smaller screens */
+    font-size: 28px;
   }
-  
+
   .custom-form-cont {
-    margin-left: 5%; /* Adjust margin for smaller screens */
+    margin-left: 5%;
   }
-  
-  .inside-form {
-    /* Keep background color unchanged */
-  }
-  
+
+
   .cust-form {
-    font-size: 16px; /* Adjust font size for smaller screens */
+    font-size: 18px;
   }
-  
+
   .resume {
-    font-size: 18px; /* Adjust font size for smaller screens */
+    font-size: 18px;
   }
-  
-  .resume-image {
-    /* Keep background color unchanged */
-  }
-  
-  .placeholder {
-    /* Keep color unchanged */
-  }
-  
+
   .popup {
-    font-size: 24px; /* Adjust font size for smaller screens */
+    font-size: 24px;
   }
-  
+
   .custom-btn {
     width: 100%;
   }
-  
+
   /* Bottombar.js styling */
-  .bottom {
-    /* Keep text decoration and background image unchanged */
-  }
-  
+
   .custom-link-2 {
-    font-size: 18px; /* Adjust font size for smaller screens */
+    font-size: 18px;
   }
 
 }

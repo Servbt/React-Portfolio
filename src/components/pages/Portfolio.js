@@ -12,9 +12,12 @@ export default function Portfolio() {
 
 
   return (
+    
     <div className='main-content portfolio-body'>
+
       {/* projects section */}
       <div>
+        
         <h1 id='Portfolio' className='text-center project-header segoi'>Projects</h1>
 
         <div className='container pt-4 '>
