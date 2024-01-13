@@ -63,6 +63,7 @@ export const ContactUs = () => {
 
   return (
     <div className=" contact-body p-5 ">
+        <div className='d-flex'></div>
         <h1 id='contact' className='text-center contact-header segoi mb-4'>Contact</h1>
       <div className="row">
         <div className=" col-md-6 align-self-top">
