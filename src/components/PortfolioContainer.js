@@ -10,8 +10,8 @@ export default function PortfolioContainer() {
 
   return (
     <div className='master-div'>
-      <div className='nav-bar'>
-      <NavTabs/>
+      <div className='nav-bar master-nav'>
+      <NavTabs />
       </div>
       <div className='main-content'>
       <Home />

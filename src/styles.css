@@ -13,9 +13,17 @@
 }
 
 /* nav-bar styling */
+.scrolled-2 {
+  background-color: var(--myblack);
+}
 
-.scrolled {
-  background-color: #333; /* Set the new background color on scroll */
+.scrolled a {
+  text-decoration: none;
+  color: var(--mylightgreen);
+  --bs-nav-link-hover-color: var(--myplatinum);
+  /* background-color: var(--mydarkBlue); */
+  font-size: 21px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
 
 .nav-item a {
@@ -27,13 +35,17 @@
 }
 
 .cust-nav {
-  position: fixed;
   background-color: transparent; /* Set initial background color */
-  transition: background-color 0.3s ease; /* Add smooth transition */
+  transition: background-color 0.5s ease; /* Add smooth transition */
 }
 
 .arian-link {
-  padding-right: 40px
+  padding-right: 40px;
+}
+
+.master-nav {
+  z-index: 1000;
+  position: fixed;
 }
 
 /* .portfolio-link {
@@ -234,4 +246,180 @@
 
 .custom-link-2 {
   color: var(--myblack);
+}
+
+@media (max-width: 576px) {
+
+  :root {
+    /* Keep your color variables unchanged */
+  }
+  
+  /* Universal Segoi font */
+  
+  .segoi {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Nav-bar styling */
+  .scrolled-2 {
+    background-color: var(--myblack);
+  }
+  
+  .scrolled a,
+  .nav-item a {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+  
+  /* Adjust padding for arian-link in smaller screens */
+  .arian-link {
+    padding-right: 20px;
+  }
+  
+  /* Adjust position of portfolio-link */
+  .portfolio-link {
+    padding-left: 10px; /* Adjust as needed */
+  }
+  
+  /* Home.js Styling */
+  .home {
+    height: 100vh; /* Adjust height for smaller screens */
+  }
+  
+  .hello {
+    font-size: 30px; /* Adjust font size for smaller screens */
+    padding-bottom: 10%; /* Adjust padding for smaller screens */
+  }
+  
+  .arian-header {
+    font-size: 60px; /* Adjust font size for smaller screens */
+    padding-bottom: 5%; /* Adjust padding for smaller screens */
+  }
+  
+  .dev-header {
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+  
+  .email-header {
+    padding-top: 5%; /* Adjust padding for smaller screens */
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+  
+  .icon-container {
+    padding-top: 10%; /* Adjust padding for smaller screens */
+  }
+  
+  /* About.js styling */
+  .about {
+    height: auto; /* Adjust height for smaller screens */
+  }
+  
+  .about-header {
+    font-size: 36px; /* Adjust font size for smaller screens */
+    width: 90%; /* Adjust width for smaller screens */
+    margin: 10px;
+    margin-left: 5%;
+    padding: 10px;
+  }
+  
+  .about-block {
+    width: 80%; /* Adjust width for smaller screens */
+    font-size: 18px; /* Adjust font size for smaller screens */
+    margin: 20px;
+    padding: 20px;
+    margin-left: 10%;
+  }
+  
+  .skills-header {
+    font-size: 36px; /* Adjust font size for smaller screens */
+    width: 70%; /* Adjust width for smaller screens */
+    margin: 10px;
+    margin-left: 15%;
+    padding: 10px;
+  }
+  
+  .know-list {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+  
+  /* Portfolio.js styling */
+  .portfolio-body {
+    height: auto; /* Adjust height for smaller screens */
+  }
+  
+  .project-header {
+    font-size: 36px; /* Adjust font size for smaller screens */
+    width: 90%; /* Adjust width for smaller screens */
+    margin-left: 5%;
+    padding: 10px;
+  }
+  
+  .project-name {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+  
+  .project-description {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+  
+  .project-pic {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+  
+  /* Contact.js styling */
+  .contact-header {
+    font-size: 36px; /* Adjust font size for smaller screens */
+    width: 70%; /* Adjust width for smaller screens */
+    margin-left: 15%;
+    padding: 10px;
+  }
+  
+  .contact-body {
+    height: auto; /* Adjust height for smaller screens */
+  }
+  
+  .lemme-know {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+  
+  .custom-form-cont {
+    margin-left: 5%; /* Adjust margin for smaller screens */
+  }
+  
+  .inside-form {
+    /* Keep background color unchanged */
+  }
+  
+  .cust-form {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+  
+  .resume {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+  
+  .resume-image {
+    /* Keep background color unchanged */
+  }
+  
+  .placeholder {
+    /* Keep color unchanged */
+  }
+  
+  .popup {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+  
+  .custom-btn {
+    width: 100%;
+  }
+  
+  /* Bottombar.js styling */
+  .bottom {
+    /* Keep text decoration and background image unchanged */
+  }
+  
+  .custom-link-2 {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
 }
