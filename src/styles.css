@@ -21,6 +21,7 @@
 }
 
 .scrolled a {
+  cursor: pointer;
   text-decoration: none;
   color: var(--mylightgreen);
   --bs-nav-link-hover-color: var(--myplatinum);
@@ -30,6 +31,7 @@
 }
 
 .nav-item a {
+  cursor: pointer;
   text-decoration: none;
   color: var(--myplatinum);
   --bs-nav-link-hover-color: var(--mygreen);
@@ -221,6 +223,11 @@
   text-decoration: none;
   color: var(--myblack);
 
+}
+
+.link-bg:hover {
+color: var(--mydarkBlue);
+transition: color 0.2s ease;
 }
 
 .resume-image {
