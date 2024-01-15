@@ -71,6 +71,11 @@
   position: fixed;
 }
 
+.link-button:hover {
+  color: var(--mygreen);
+  transition: color 0.2s ease;
+}
+
 /* .portfolio-link {
   padding-left: 65vw;
 } */
