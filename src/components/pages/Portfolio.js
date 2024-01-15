@@ -22,7 +22,7 @@ export default function Portfolio() {
           <ul className='row my-3'>
             <div className='col mb-5'>
               <a href='https://servbt.github.io/Mix-up-Movie-Night/' target='_empty' className=' project-name fs-1 '>
-                <img src={movie} className=' project-pic rounded' alt='movieMix'></img>
+                <img src={movie} className=' project-pic hvr-grow rounded' alt='movieMix'></img>
               </a>
             </div>
             <div className='col align-self-top text-center pt-2'>
@@ -38,14 +38,14 @@ export default function Portfolio() {
             </div>
             <div className='col mb-5'>
               <a href='https://still-sea-39292.herokuapp.com/' target='_empty' className=' project-name fs-1'>
-                <img src={nexus} className='project-pic rounded' alt='Nexus'></img>
+                <img src={nexus} className='project-pic hvr-grow rounded' alt='Nexus'></img>
               </a>
             </div>
           </ul>
           <ul className='row my-3'>
             <div className='col mb-5'>
               <a href='https://music-saver-3b51d79cbfa1.herokuapp.com/' target='_empty' className='project-name fs-1'>
-                <img src={musicSaver} className=' project-pic rounded' alt='music-saver'></img>
+                <img src={musicSaver} className=' project-pic hvr-grow rounded' alt='music-saver'></img>
               </a>
             </div>
             <div className='col align-self-top text-center'>
@@ -61,7 +61,7 @@ export default function Portfolio() {
             </div>
             <div className='col mb-5'>
             <a href='https://ejs-todolist-529924016ab2.herokuapp.com/' target='_empty' className='project-name fs-1'>
-              <img src={todo} className='project-pic rounded' alt='todo'></img>
+              <img src={todo} className='project-pic hvr-grow rounded' alt='todo'></img>
             </a>
             </div>
           </ul>
@@ -69,7 +69,7 @@ export default function Portfolio() {
           <ul className='row my-3'>
             <div className='col mb-5'>
             <a href='https://github.com/Servbt/Yumu' target='_empty' className='project-name fs-1'>
-              <img src={Yumu2} className='project-pic rounded' alt='Yumu'></img>
+              <img src={Yumu2} className='project-pic hvr-grow rounded' alt='Yumu'></img>
             </a>
             </div>
             <div className='col align-self-top text-center'>
