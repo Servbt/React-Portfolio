@@ -12,7 +12,7 @@ export default function About() {
     <div className='about pt-5'>
       <h1 id='About' className='d-flex justify-content-center about-header segoi'>About Me</h1>
         <p className='about-block segoi text-center '>
-          Currently, I work as a pharmacy technician at Publix Supermarkets! I am capable of crafting functional and responsive web applications, leveraging the diverse skill set acquired through UCF's full-stack program. Proficient in creating compelling front-end designs and setting up robust databases, I am eager to collaborate and learn from others in the dynamic field of web development. My strengths lie in adjudication and communication, and I am enthusiastic about contributing my skills to innovative projects. I look forward to working with a collaborative team and continuously expanding my knowledge!
+          I am capable of crafting functional and responsive web applications, leveraging the diverse skill set acquired through UCF's full-stack program. Proficient in creating compelling front-end designs and setting up robust databases, I am eager to collaborate and learn from others in the dynamic field of web development. My strengths lie in adjudication and communication, and I am enthusiastic about contributing my skills to innovative projects. I look forward to working with a collaborative team and continuously expanding my knowledge!
         </p>
 
         <div>
