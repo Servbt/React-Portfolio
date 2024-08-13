@@ -93,7 +93,7 @@ export const ContactUs = () => {
           </div>
         </div>
 
-        <a href='https://drive.google.com/file/d/1HlaUy4XvOPrr71nVoHc6f0C318e-93Z9/view?usp=sharing' target='_none' className='resume col-md-4 p-5 mt-5 link-bg'>
+        <a href='https://drive.google.com/file/d/15t-HbZHyByofDr6t-uUZxWbnf37Kqy9w/view?usp=sharing' target='_none' className='resume col-md-4 p-5 mt-5 link-bg'>
           <div className='resume-mobile justify-content-center link-bg'>
             <div className=' text-center resume-image p-3 rounded-5 link-bg'>
               <div className='resume'>
